@@ -1,7 +1,7 @@
 ---
 title: Overview of Content Plugins
 ---
-Content Plugins in <SwmToken path="/wp-content/plugins/hello.php" pos="8:7:7" line-data="Plugin URI: http://wordpress.org/plugins/hello-dolly/">`wordpress`</SwmToken>, such as those found in the <SwmPath>[wp-content/plugins//](/wp-content/plugins//)</SwmPath> directory, are pieces of software that add specific features or functionalities to the website. They are written in PHP and integrate seamlessly with <SwmToken path="/wp-content/plugins/hello.php" pos="8:7:7" line-data="Plugin URI: http://wordpress.org/plugins/hello-dolly/">`wordpress`</SwmToken>. These plugins allow for customization and control over the website, extending the core functionality of <SwmToken path="/wp-content/plugins/hello.php" pos="8:7:7" line-data="Plugin URI: http://wordpress.org/plugins/hello-dolly/">`wordpress`</SwmToken>.
+Content Plugins in <SwmToken path="/wp-content/plugins/hello.php" pos="8:7:7" line-data="Plugin URI: http://wordpress.org/plugins/hello-dolly/">`wordpress`</SwmToken>, such as those found in the <SwmPath>[wp-content/plugins/](/wp-content/plugins/)</SwmPath> directory, are pieces of software that add specific features or functionalities to the website. They are written in PHP and integrate seamlessly with <SwmToken path="/wp-content/plugins/hello.php" pos="8:7:7" line-data="Plugin URI: http://wordpress.org/plugins/hello-dolly/">`wordpress`</SwmToken>. These plugins allow for customization and control over the website, extending the core functionality of <SwmToken path="/wp-content/plugins/hello.php" pos="8:7:7" line-data="Plugin URI: http://wordpress.org/plugins/hello-dolly/">`wordpress`</SwmToken>.
 
 <SwmSnippet path="/wp-content/plugins/hello.php" line="1">
 
