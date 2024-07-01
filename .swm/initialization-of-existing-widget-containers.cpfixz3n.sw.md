@@ -51,37 +51,37 @@ end
 
 %% Swimm:
 %% graph TD;
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   initializeExistingWidgetContainers:::mainFlowStyle --> <SwmToken path="/wp-admin/js/widgets/text-widgets.js" pos="447:3:3" line-data="	component.setupAccessibleMode = function setupAccessibleMode() {">`setupAccessibleMode`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   initializeExistingWidgetContainers:::mainFlowStyle --> <SwmToken path="/wp-admin/js/widgets/text-widgets.js" pos="382:3:3" line-data="	component.handleWidgetAdded = function handleWidgetAdded( event, widgetContainer ) {">`handleWidgetAdded`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   handleWidgetAdded:::mainFlowStyle --> <SwmToken path="/wp-admin/js/widgets/text-widgets.js" pos="430:1:1" line-data="		renderWhenAnimationDone = function() {">`renderWhenAnimationDone`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   renderWhenAnimationDone:::mainFlowStyle --> <SwmToken path="/wp-admin/js/widgets/text-widgets.js" pos="173:1:1" line-data="		initializeEditor: function initializeEditor() {">`initializeEditor`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   initializeEditor:::mainFlowStyle --> <SwmToken path="/wp-includes/js/media-views.js" pos="9181:1:1" line-data="			onInit: this.updatePreview,">`onInit`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   initializeEditor:::mainFlowStyle --> <SwmToken path="/wp-admin/js/widgets/text-widgets.js" pos="230:3:3" line-data="			function buildEditor() {">`buildEditor`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   buildEditor:::mainFlowStyle --> <SwmToken path="/wp-includes/js/media-views.js" pos="9181:1:1" line-data="			onInit: this.updatePreview,">`onInit`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   buildEditor:::mainFlowStyle --> initialize
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   initialize:::mainFlowStyle --> on
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   on:::mainFlowStyle --> adjust
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   adjust:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor-expand.js" pos="107:3:3" line-data="		function textEditorResize() {">`textEditorResize`</SwmToken>
 %% end
 %%   textEditorResize:::mainFlowStyle --> ...

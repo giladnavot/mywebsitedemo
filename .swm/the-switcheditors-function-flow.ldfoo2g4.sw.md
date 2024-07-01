@@ -91,79 +91,79 @@ end
 
 %% Swimm:
 %% graph TD;
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   SwitchEditors:::mainFlowStyle --> <SwmToken path="/wp-includes/js/quicktags.js" pos="616:3:3" line-data="	qt.closeAllTags = function( editor_id ) {">`closeAllTags`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   SwitchEditors:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="172:5:5" line-data="						selectionRange = findBookmarkedPosition( editor );">`findBookmarkedPosition`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   SwitchEditors:::mainFlowStyle --> init
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   SwitchEditors:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="116:1:1" line-data="					addHTMLBookmarkInTextAreaContent( $textarea );">`addHTMLBookmarkInTextAreaContent`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   SwitchEditors:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="38:1:1" line-data="						switchEditor( id, mode );">`switchEditor`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   <SwmToken path="/wp-includes/js/quicktags.js" pos="616:3:3" line-data="	qt.closeAllTags = function( editor_id ) {">`closeAllTags`</SwmToken> --> _close
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   _close --> <SwmToken path="/wp-includes/js/quicktags.js" pos="475:7:7" line-data="	qt.TagButton.prototype.closeTag = function( element, ed ) {">`closeTag`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   <SwmToken path="/wp-admin/js/editor.js" pos="172:5:5" line-data="						selectionRange = findBookmarkedPosition( editor );">`findBookmarkedPosition`</SwmToken> --> on
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   on --> adjust
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   init --> on
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   <SwmToken path="/wp-admin/js/editor.js" pos="116:1:1" line-data="					addHTMLBookmarkInTextAreaContent( $textarea );">`addHTMLBookmarkInTextAreaContent`</SwmToken> --> <SwmToken path="/wp-admin/js/editor.js" pos="400:3:3" line-data="		function adjustTextAreaSelectionCursors( content, cursorPositions ) {">`adjustTextAreaSelectionCursors`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   <SwmToken path="/wp-admin/js/editor.js" pos="400:3:3" line-data="		function adjustTextAreaSelectionCursors( content, cursorPositions ) {">`adjustTextAreaSelectionCursors`</SwmToken> --> <SwmToken path="/wp-admin/js/editor.js" pos="393:6:6" line-data="		 * @link getShortcodeWrapperInfo">`getShortcodeWrapperInfo`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   switchEditor:::mainFlowStyle --> <SwmToken path="/wp-includes/js/quicktags.js" pos="616:3:3" line-data="	qt.closeAllTags = function( editor_id ) {">`closeAllTags`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   switchEditor:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="172:5:5" line-data="						selectionRange = findBookmarkedPosition( editor );">`findBookmarkedPosition`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   switchEditor:::mainFlowStyle --> init
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   switchEditor:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="116:1:1" line-data="					addHTMLBookmarkInTextAreaContent( $textarea );">`addHTMLBookmarkInTextAreaContent`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   switchEditor:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="581:4:4" line-data="		 * `focusHTMLBookmarkInVisualEditor()` and scrolls the screen so the element appears roughly">`focusHTMLBookmarkInVisualEditor`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-admin/js//](/wp-admin/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-admin/js/](/wp-admin/js/)</SwmPath>
 %%   focusHTMLBookmarkInVisualEditor:::mainFlowStyle --> <SwmToken path="/wp-admin/js/editor.js" pos="590:3:3" line-data="		function scrollVisualModeToStartElement( editor, element ) {">`scrollVisualModeToStartElement`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   scrollVisualModeToStartElement:::mainFlowStyle --> animate
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   animate:::mainFlowStyle --> <SwmToken path="/wp-includes/js/mediaelement/mediaelement.js" pos="3440:5:5" line-data="	_window2.default.requestAnimationFrame(function animate(timestamp) {">`requestAnimationFrame`</SwmToken>
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   requestAnimationFrame:::mainFlowStyle --> max
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   max:::mainFlowStyle --> each
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   max:::mainFlowStyle --> cb
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   cb:::mainFlowStyle --> iteratee
 %% end
-%% subgraph <SwmPath>[wp-includes/js//](/wp-includes/js//)</SwmPath>
+%% subgraph <SwmPath>[wp-includes/js/](/wp-includes/js/)</SwmPath>
 %%   iteratee:::mainFlowStyle --> <SwmToken path="/wp-includes/js/underscore.js" pos="737:3:3" line-data="  function baseIteratee(value, context, argCount) {">`baseIteratee`</SwmToken>
 %% end
 %%   baseIteratee:::mainFlowStyle --> ...
