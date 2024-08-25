@@ -70,7 +70,7 @@ function documentation_link() {
 
 # Admin Functions in wp-admin/admin-ajax.php
 
-This file handles Ajax requests in the WordPress admin. It defines the `DOING_AJAX` constant and loads the necessary files and functions for handling Ajax requests.
+This file handles Ajax requests in the WordPress admin. 
 
 ```hack
 <?php
@@ -100,41 +100,7 @@ if ( ! defined( 'WP_ADMIN' ) ) {
 
 </SwmSnippet>
 
-<SwmSnippet path="/wp-admin/includes/admin.php" line="1">
 
----
-
-# Admin Functions in wp-admin/includes/admin.php
-
-This file loads the necessary files and functions for the WordPress admin. It includes files for handling bookmarks, comments, files, images, media, options, plugins, posts, taxonomy, templates, themes, users, updates, and more.
-
-```hack
-<?php
-/**
- * Core Administration API
- *
- * @package WordPress
- * @subpackage Administration
- * @since 2.3.0
- */
-
-if ( ! defined( 'WP_ADMIN' ) ) {
-	/*
-	 * This file is being included from a file other than wp-admin/admin.php, so
-	 * some setup was skipped. Make sure the admin message catalog is loaded since
-	 * load_default_textdomain() will not have done so in this context.
-	 */
-	$admin_locale = get_locale();
-	load_textdomain( 'default', WP_LANG_DIR . '/admin-' . $admin_locale . '.mo', $admin_locale );
-	unset( $admin_locale );
-}
-
-/** WordPress Administration Hooks */
-```
-
----
-
-</SwmSnippet>
 
 &nbsp;
 
